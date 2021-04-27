@@ -26,14 +26,28 @@ header{
         text-decoration: none;
         font-size: larger;
         border-radius: 15px;
-        border: 3px solid black;
-        background-color: blue;
+        border: 3px solid white;
+        background-color: white;
     }
 
     .contenitore{
         height: 100vh;
-
+        width: auto;
     }
 
-    .A
+    .A{
+        background-color: red;
+    }
+
+    .B{
+        background-color: royalblue;
+    }
+
+    .C{
+        background-color: yellow;
+    }
+
+    #scarpa1{
+        
+    }
     
