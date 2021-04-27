@@ -28,26 +28,40 @@ header{
         border-radius: 15px;
         border: 3px solid white;
         background-color: white;
+        padding: 2px 7px;
+        z-index: 500;
     }
 
     .contenitore{
         height: 100vh;
         width: auto;
+        
+    }
+
+    .centro{
+        font-size: 40px;
+        text-align: center;
     }
 
     .A{
         background-color: red;
+        
+        color: yellow;
+        z-index: 400;
     }
 
     .B{
         background-color: royalblue;
+        color: yellow;
+        z-index: 400;
     }
 
     .C{
         background-color: yellow;
+        
+        color: green;
+        z-index: 400;
     }
 
-    #scarpa1{
-        
-    }
+    
     
