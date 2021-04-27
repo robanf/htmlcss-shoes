@@ -12,6 +12,7 @@ header{
     position: fixed;
     top: 20px;
     right: 5px;
+    z-index: 2;
 }
 
 .selettori li{
@@ -29,38 +30,41 @@ header{
         border: 3px solid white;
         background-color: white;
         padding: 2px 7px;
-        z-index: 500;
+        
     }
 
     .contenitore{
         height: 100vh;
         width: auto;
-        
+        position: relative;
     }
 
     .centro{
         font-size: 40px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         text-align: center;
+        padding: 50px;
     }
 
     .A{
         background-color: red;
         
         color: yellow;
-        z-index: 400;
+        
     }
 
     .B{
         background-color: royalblue;
         color: yellow;
-        z-index: 400;
+        
     }
 
     .C{
         background-color: yellow;
-        
         color: green;
-        z-index: 400;
     }
 
     
